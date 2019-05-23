@@ -7,5 +7,4 @@ def eval_loop():
     print(eval('type(line)'))
 
 
-
 eval_loop()

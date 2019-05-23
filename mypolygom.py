@@ -30,13 +30,6 @@ def polygon(t, length, n):
 
 
 def polyline(t, n, length, angle):
-    """Draws n line segments.
-
-    t: Turtle object
-    n: number of line segments
-    length: length of each segment
-    angle: degrees between segments
-    """
     for i in range(n):
         t.fd(length)
         t.lt(angle)
