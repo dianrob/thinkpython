@@ -1,3 +1,0 @@
-def rotate_word(str, num):
-    for foo in str:
-       print = ord('foo') + num
