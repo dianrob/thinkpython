@@ -13,6 +13,13 @@ def bigger20(m):
     print(' '.join([i for i in m if len(i) > 19]))
 
 
-m = readline(moby)
+def has_no_e(word):
+    if 'e' not in word:
+        print('True')
 
-bigger20(m)
+
+has_no_e('banana')
+
+
+
+#bigger20(readline(moby))
