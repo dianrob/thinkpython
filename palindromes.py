@@ -19,3 +19,13 @@ def is_palindrome(x):
 
 
 is_palindrome('otto')
+
+
+def palindrome_short(x):
+    if x[::-1] == x:
+        return True
+    else:
+        return False
+
+
+palindrome_short('kacke')

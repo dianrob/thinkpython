@@ -1,0 +1,2 @@
+def count(str):
+    print str.count('a')
